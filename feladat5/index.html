@@ -1,0 +1,21 @@
+<div class="todo-container">
+  <h2>Teendők listája</h2>
+
+  <input
+    type="text"
+    [(ngModel)]="newTodoText"
+    placeholder="Új teendő..."
+    (keyup.enter)="addTodo()"
+  />
+  <button (click)="addTodo()">Hozzáadás</button>
+
+  <ul>
+    <li *ngFor="let todo of todos; let i = index">
+      <span [ngClass]="{ completed: todo.completed }">{{ todo.text }}</span>
+      <button (click)="toggleCompleted(i)">
+        {{ todo.completed ? 'Visszavonás' : 'Kész' }}
+      </button>
+      <button (click)="removeTodo(i)">Eltávolítás</button>
+    </li>
+  </ul>
+</div>
