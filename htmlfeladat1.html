@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+      
+        Feladat: Készíts egy „Rólunk” szekciót, amely az alábbiakat tartalmazza:
+
+Egy H2 címsort: szöveg: Rólunk, betűszín: sötétzöld, méret: 26px
+
+Egy div dobozt (id: about), amelynek:
+
+háttérszíne: világosszürke (#F0F0F0)
+
+szélessége: 400px
+
+belső margó: 20px
+
+A dobozon belül:
+
+egy bekezdés (p): szöveg: „Cégünk 2020 óta kínál kiváló webes megoldásokat.”
+
+betűméret: 16px
+
+szövegigazítás: középre
+
+egy kép (img): forrás: logo.png, szélesség: 100px, nincs keret
+
+Csak inline stílust használj!
+Feladat: Készíts egy egyszerű navigációs sávot:
+
+Egy nav elem (id: nav) amelynek:
+
+háttérszín: sötétkék (#001F3F)
+
+magasság: 60px
+
+belső margó: 10px
+
+A nav-on belül 4 darab gomb (button):
+
+Feliratok: Főoldal, Szolgáltatások, Referenciák, Kapcsolat
+
+Minden gomb:
+
+háttérszín: világoskék (#7FDBFF)
+
+margó: 5px
+
+betűszín: fekete
+
+betűméret: 14px
+
+🧪 Gyakorlófeladat 3 – Hivatkozás és lábléc
+Feladat:
+
+Egy h3 elem: szöveg: További információk, betűszín: barna (#8B4513), méret: 20px
+
+Egy a hivatkozás: szöveg: További tudnivalók itt, URL: https://example.com, betűszín: lila (#800080), dőlt betű (italic), aláhúzás legyen
+
+Egy footer:
+
+ID: page-footer
+
+háttérszín: világosbarna (#D2B48C)
+
+magasság: 80px
+
+középen egy szöveg (p): „© 2025 Minden jog fenntartva.”
+
+
+    -->
+<nav id="nav" style="background-color: #001F3F; height: 60px; padding: 10px;">
+    <button style="background-color:#7FDBFF ; margin: 5px; color: black; font-size: 14px;">Főoldal</button>
+    <button style="background-color:#7FDBFF ; margin: 5px; color: black; font-size: 14px;">Szolgáltatások</button>
+    <button style="background-color:#7FDBFF ; margin: 5px; color: black; font-size: 14px;">Referenciák</button>
+    <button style="background-color:#7FDBFF ; margin: 5px; color: black; font-size: 14px;">Kapcsolat</button>
+</nav>
+    <section class="Rólunk">
+        <h2 style="color: darkgreen; font-size: 26px;">Rólunk</h2>
+        <div id="about" style="background-color:#F0F0F0 ; width: 400px; padding: 20px;">
+            <p style="font-size: 16px; text-align: center">Cégünk 2020 óta kínál kiváló webes megoldásokat.</p>
+            <img src="logo.png" alt="logo" style="width: 100px;">
+        </div>
+    </section>
+    <h3 style="color:#8B4513 ; font-size: 20px;">További információk: </h3>
+    <a href="https://example.com" style="color:#800080 ; font-style: italic; text-decoration: underline;">További tudnivalók itt:</a>
+    <footer id="page-footer" style="background-color:#D2B48C ; height: 80px;">
+        <p style="text-align: center" >© 2025 Minden jog fenntartva.</p>
+    </footer>
+</body>
+</html>
