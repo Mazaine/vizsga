@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--✅ Feladat:
+Készíts egy személyes profilkártyát a következő elemekkel és stílusokkal, kizárólag inline CSS használatával!
+
+✅ Követelmények:
+1. Címsor:
+<h2> szöveg: Ismerj meg engem
+
+Szín: sötétkék (#001F3F)
+
+Középre igazítás
+
+Méret: 24px
+
+2. Kártya (egy <div> keretben):
+Háttérszín: világoskék (#DFF6FF)
+
+Szélesség: 320px
+
+Belső margó (padding): 20px
+
+Lekerekített sarkok: 10px (border-radius)
+
+Középre igazítás (margin: auto)
+
+A kártyán belül:
+
+a) Kép:
+<img>: src="profile.jpg", méret: 100px × 100px
+
+Kerek forma (border-radius: 50%)
+
+Középre igazított
+
+b) Név:
+<h3>: Pl. Kovács Anna
+
+Betűszín: fekete
+
+Méret: 20px
+
+Középre igazított
+
+c) Rövid bemutatkozás:
+<p>: pl. „Frontend fejlesztő vagyok, aki szenvedéllyel készít modern, reszponzív weboldalakat.”
+
+Betűméret: 14px
+
+Szövegigazítás: középre
+
+Sorköz: 1.4
+
+d) Kapcsolat gomb:
+<button>: szöveg: Lépj kapcsolatba
+
+Háttérszín: kék (#0074D9)
+
+Szöveg: fehér
+
+Belső margó: 10px
+
+Betűméret: 14px
+
+📌 Ne feledd: minden stílust inline kell elhelyezni, tehát minden style="" attribútumban legyen!-->
+<body>
+    <h2 style="color: #001F3F; text-align: center; font-size: 24px;">Ismerj meg engem</h2>
+    <div style="background-color: #DFF6FF; width: 320px; padding: 20px; border-radius: 10px; margin: auto;">
+        <img src="profile.jpg" alt="image" style="width: 100px; display: block; height: 100px; border-radius: 50%; margin: 0 auto;">
+        <h3 style="color: black; font-size: 20px; text-align: center;">Szabó Eszter</h3>
+        <p style="font-size: 14px;text-align: center; line-height: 1.4; ">
+            Frontend fejlesztő vagyok, aki szenvedéllyel készít modern, reszponzív weboldalakat.</p>
+        <button style="background-color: #0074D9; color: white; padding:10px; font-size: 14px;">Lépj kapcsolatba</button>
+    </div>
+</body>
+</html>
