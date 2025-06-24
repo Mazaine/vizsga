@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h3>Egyszerű Számológép</h3>
+  <input type="number" [(ngModel)]="num1" class="form-control mb-2" placeholder="Szám 1" />
+  <input type="number" [(ngModel)]="num2" class="form-control mb-2" placeholder="Szám 2" />
+  
+  <select [(ngModel)]="operation" class="form-select mb-3">
+    <option value="+">Összeadás</option>
+    <option value="-">Kivonás</option>
+    <option value="*">Szorzás</option>
+    <option value="/">Osztás</option>
+  </select>
+
+  <button class="btn btn-primary mb-3" (click)="calculate()">Számol</button>
+
+  <p *ngIf="result !== null"><strong>Eredmény:</strong> {{ result }}</p>
+  <p *ngIf="result === null && operation === '/' && num2 === 0" class="text-danger">Nem osztható nullával!</p>
+</div>

@@ -1,0 +1,8 @@
+Feladat – Angular Komponens: Számválasztó
+Készíts egy number-picker komponenst.
+
+A komponensben legyen egy input mező számokhoz, amelybe a felhasználó beírhat egy számot.
+
+Egy gombbal lehet hozzáadni a számot egy listához.
+
+A lista alatt jelenítsd meg a hozzáadott számokat, és mutasd meg az eddigi számok összegét.

@@ -1,0 +1,11 @@
+-	Készítsen egy todo-list nevű Angular komponenst, amely egy teendők listáját kezeli. A lista elemei felhasználó által hozzáadhatók, eltávolíthatók, illetve egy gomb segítségével megjelölhetők "kész" állapotúként. Ügyeljen a tiszta kódírásra, és hogy a megoldás megfeleljen a tesztesetek követelményeinek.
+Feladatok
+-	Generáljon egy új todo-list komponenst: ng generate component todo-list.
+-	A lista elemei egy objektumtömbben (todos) legyenek tárolva, ahol minden elem tartalmazza:
+o	a teendő szövegét (text),
+o	a státuszát (completed, boolean).
+-	A komponens tartalmazza a következő funkciókat:
+o	Új teendő hozzáadása (addTodo), amely az input mező értékét adja a listához.
+o	Teendő eltávolítása a listából (removeTodo).
+o	Teendő "kész" állapotának megváltoztatása (toggleCompleted).
+-	Jelenítse meg a teendőket egy <ul> listában, ahol minden elem tartalmaz egy "Eltávolítás" gombot és egy "Kész" kapcsolót.

@@ -1,0 +1,15 @@
+<div class="container mt-4">
+  <h3>Számválasztó</h3>
+  <input
+    type="number"
+    [(ngModel)]="inputNumber"
+    class="form-control mb-2"
+    placeholder="Írj be egy számot"
+  />
+  <button class="btn btn-primary mb-3" (click)="addNumber()" [disabled]="inputNumber === null">
+    Hozzáadás
+  </button>
+
+  <p><strong>Számok:</strong> {{ numbers.join(', ') || 'Nincsenek számok' }}</p>
+  <p><strong>Összeg:</strong> {{ getSum() }}</p>
+</div>

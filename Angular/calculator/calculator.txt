@@ -1,0 +1,6 @@
+Feladat – Angular Komponens: Egyszerű Számológép
+Készíts egy simple-calculator komponenst.
+
+Legyen két szám bemeneti mező, és egy legördülő menü az összeadásra, kivonásra, szorzásra, osztásra.
+
+Egy gombbal végezze el a kiválasztott műveletet, és jelenítse meg az eredményt.
