@@ -66,6 +66,14 @@ function digitSum(n) {
         .reduce((sum, digit) => sum + Number(digit), 0); //.reduce(...) → végigmegy a tömbön, és összeadja a számjegyeket.
 }
 
+/*function digitSum(n) {
+    return n
+        .toString()
+        .split('')
+        .reduce((sum, digit) => sum + Number(digit), 0);
+} */
+
+
 // Tesztelés
 console.log(digitSum(123)); // 6 
 console.log(digitSum(-456)); // 15   
